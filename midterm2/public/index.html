@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css" />
+  <name>Store</name>
+</head>
+
+<body>
+  <div class="header">
+    <div class="name">
+      <h1>Shopping Interface</h1>
+    </div>
+  </div>
+  <div id="app" class="content">
+    <h1>Current Products</h1>
+    
+    
+    <form v-on:submit.prevent="purchaseItems()">
+
+      <div v-for="item in items">
+        <input type="checkbox" @click="selectItem(item)"> {{item.name}} - price {{item.price}} <img :src="item.path" height="100" width="100"/>
+      </div>
+      <button class="btn-md btn-warning" type="submit">Submit Purchase</button>
+    </form>
+    
+    <h1>Shopping Cart</h1>
+    <div v-for="item in shoppingCart">
+        {{item.name}} - price {{item.price}} <img :src="item.path" height="100" width="100"/>
+    </div>
+    
+  </div>
+  
+  <div class="footer">
+    <button class="btn-md btn-success"><a href="admin.html">Admin page</a></button>
+  </div>
+  
+    <br><br><br><br><br>
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; 2019 Store Midterm | <a href="https://github.com/BYUCS260/lab-5-mongodb-calengbuford" 
+      target="_blank">github.com/BYUCS260/lab-5-mongodb-calengbuford</a></small>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.js" integrity="sha256-g+Q8DFAmG5+eyRPSydX0LY4TfjsL11XSDrIGerbbEdA=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Search | Digital Library</title>
+</head>
+
+<body class="d-flex flex-column">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Digital Library </a>
+    </nav>
+
+    <div id="page-content">
+        <div id="app">
+
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h1 class="font-weight-light mt-4 text-white">Digital Library</h1>
+                    <p class="lead text-white-50">This API provided by <a href="http://www.penguinrandomhouse.biz/webservices/rest/">Penguin Random House</a> allows you to search for books from a certain author.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <br><br>
+                <nav>
+                    <div class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-author-tab" data-toggle="tab" href="#nav-author" role="tab" aria-controls="nav-author" aria-selected="true">&nbsp;Search by author&nbsp;</a>
+                        <a class="nav-item nav-link" id="nav-title-tab" data-toggle="tab" href="#nav-title" role="tab" aria-controls="nav-title" aria-selected="false">&nbsp;Books wish list&nbsp;</a>
+                    </div>
+                </nav>
+                
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade active show" id="nav-author" role="tabpanel" aria-labelledby="nav-author-tab">
+                    <div class="row justify-content-center tab-color round-borders">
+                        <div class="col-md-7 text-center padding">
+                            <h1 class="font-weight-light mt-4">Search by Author</h1>
+                            <form v-on:submit.prevent="getAuthors">
+                                <input type="text" v-model="firstName" placeholder="first name">
+                                <input type="text" v-model="lastName" placeholder="last name">
+                                <button type="submit" class="btn btn-warning">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                        
+                    <br>
+                    
+                    <div class="row">
+                        <div v-for="author in this.authors.author" class="definitionGroup">
+                            <div id="author-name" class="white-text">
+                                <h3>{{ author.authorfirst }}&nbsp;{{ author.authorlast }}</h3>
+                            </div>
+                            <div v-for="book in author.books">
+                                <div class="book white-text">
+                                    <p>Title: {{ book.titleweb }}</p>
+                                    <p>Recommended ages: {{ book.agerange }}</p>
+                                    <p>ISBN: {{ book.isbn }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+            
+                    
+                  </div>
+                  
+                  <div class="tab-pane fade" id="nav-title" role="tabpanel" aria-labelledby="nav-title-tab">
+                    <div class="row justify-content-center tabbed tab-color round-borders">
+                        <div class="col-md-7 text-center padding">
+                            <h1 class="font-weight-light mt-4">Book Wish List</h1>
+                            <br>
+                            <em>Functionality coming soon! (With the mongo lab.)</em>
+                            <!--<form v-on:submit.prevent="getBooksByTitle">-->
+                            <!--    <input type="text" v-model="title" placeholder="title">-->
+                            <!--    <button type="submit" class="btn btn-warning">Search</button>-->
+                            <!--</form> -->
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <br>
+            </div>
+                
+            <!--<div class="row">-->
+            <!--    <div class="col-md-6 offset-md-3">-->
+            <!--        <div v-for="author in authors" class="definitionGroup">-->
+            <!--            <div id="author-name" class="white-text">-->
+            <!--                <h3>{{ author.authorfirst }}&nbsp;{{ author.authorlast }}</h3>-->
+            <!--            </div>-->
+            <!--            <div v-for="">-->
+                            
+                            
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div><br>-->
+                
+        </div>
+    </div>
+    
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; 2019 Digital Library | <a href="https://github.com/sequoiap/creative4"
+                    target="_blank">github.com/sequoiap/creative4</a></small>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

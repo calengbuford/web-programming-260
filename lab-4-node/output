@@ -1,0 +1,510 @@
+nohup: ignoring input
+In port: 4200
+(node:22739) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+[0mGET /? [32m200 [0m6.541 ms - 1703[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.196 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m1.388 ms - -[0m
+In Owl
+{ q: 'Gage' }
+[0mGET /owl?q=Gage [32m200 [0m272.580 ms - 103[0m
+In Cities
+{ q: 'g' }
+[0mGET /cities?q=g [32m200 [0m131.055 ms - -[0m
+In Cities
+{ q: 'ga' }
+[0mGET /cities?q=ga [32m200 [0m152.243 ms - -[0m
+In Cities
+{ q: 'g' }
+[0mGET /cities?q=g [32m200 [0m120.201 ms - -[0m
+In Cities
+{ q: '.' }
+[0mGET /cities?q=. [32m200 [0m120.346 ms - -[0m
+In Cities
+{ q: 'G' }
+[0mGET /cities?q=G [32m200 [0m119.946 ms - -[0m
+In Cities
+{ q: 'G' }
+[0mGET /cities?q=G [32m200 [0m124.743 ms - -[0m
+In Cities
+{ q: 'Ga' }
+[0mGET /cities?q=Ga [32m200 [0m124.180 ms - -[0m
+In Cities
+{ q: 'G' }
+[0mGET /cities?q=G [32m200 [0m124.531 ms - -[0m
+In Cities
+{ q: '.' }
+[0mGET /cities?q=. [32m200 [0m120.119 ms - -[0m
+In Cities
+{ q: '.' }
+[0mGET /cities?q=. [32m200 [0m121.733 ms - -[0m
+[0mGET /? [32m200 [0m0.910 ms - 1722[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.407 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.269 ms - -[0m
+[0mGET /github.com/BYUCS260/lab-4-node-calengbuford [33m404 [0m6.436 ms - 1196[0m
+[0mGET /? [32m200 [0m0.592 ms - 1722[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.455 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.257 ms - -[0m
+[0mGET /? [32m200 [0m0.605 ms - 1844[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.384 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.250 ms - -[0m
+[0mGET /? [32m200 [0m0.555 ms - 1842[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.464 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m1.143 ms - -[0m
+[0mGET /? [32m200 [0m0.525 ms - 2727[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.343 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.284 ms - -[0m
+[0mGET /? [32m200 [0m0.659 ms - 2501[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.356 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.255 ms - -[0m
+[0mGET /? [32m200 [0m0.690 ms - 2527[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.362 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.249 ms - -[0m
+[0mGET /? [32m200 [0m0.535 ms - 2301[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.376 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.260 ms - -[0m
+[0mGET /? [32m200 [0m0.522 ms - 2078[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.390 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.325 ms - -[0m
+[0mGET /? [32m200 [0m0.521 ms - 2060[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.402 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.241 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.354 ms - -[0m
+[0mGET /? [32m200 [0m0.492 ms - 2062[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.396 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.238 ms - -[0m
+[0mGET /? [36m304 [0m0.355 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.607 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.634 ms - -[0m
+[0mGET /? [36m304 [0m0.362 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.354 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.231 ms - -[0m
+[0mGET /? [32m200 [0m0.485 ms - 2136[0m
+[0mGET /javascripts/script.js [36m304 [0m0.286 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.430 ms - 329[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.345 ms - -[0m
+[0mGET /? [36m304 [0m0.317 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.543 ms - 377[0m
+[0mGET /javascripts/script.js [36m304 [0m0.246 ms - -[0m
+[0mGET /? [36m304 [0m0.335 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.791 ms - 418[0m
+[0mGET /javascripts/script.js [36m304 [0m0.753 ms - -[0m
+[0mGET /? [36m304 [0m0.369 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.343 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.247 ms - -[0m
+[0mGET /? [36m304 [0m0.393 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.354 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.216 ms - -[0m
+[0mGET /? [36m304 [0m0.334 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.482 ms - 486[0m
+[0mGET /javascripts/script.js [36m304 [0m0.260 ms - -[0m
+[0mGET /? [36m304 [0m0.355 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.360 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.205 ms - -[0m
+[0mGET /? [36m304 [0m0.325 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.307 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.243 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.339 ms - -[0m
+[0mGET /? [32m200 [0m0.516 ms - 2136[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.820 ms - 486[0m
+[0mGET /javascripts/script.js [32m200 [0m0.818 ms - 1529[0m
+[0mGET /favicon.ico [33m404 [0m1.079 ms - 1196[0m
+[0mGET /? [36m304 [0m0.283 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.430 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.329 ms - 492[0m
+[0mGET /? [36m304 [0m0.341 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m1.673 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.598 ms - 487[0m
+[0mGET /? [36m304 [0m0.296 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.474 ms - 492[0m
+[0mGET /javascripts/script.js [36m304 [0m0.206 ms - -[0m
+[0mGET /? [36m304 [0m0.311 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.564 ms - 524[0m
+[0mGET /javascripts/script.js [36m304 [0m0.235 ms - -[0m
+[0mGET /? [36m304 [0m0.429 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.857 ms - 539[0m
+[0mGET /javascripts/script.js [36m304 [0m0.890 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m181.829 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m121.239 ms - -[0m
+In Cities
+{ q: 'Ma' }
+[0mGET /cities?q=Ma [32m200 [0m122.706 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m120.023 ms - -[0m
+In Cities
+{ q: 'Mo' }
+[0mGET /cities?q=Mo [32m200 [0m119.133 ms - -[0m
+In Cities
+{ q: 'Moab' }
+[0mGET /cities?q=Moab [32m200 [0m120.186 ms - -[0m
+In Cities
+{ q: 'Moab' }
+[0mGET /cities?q=Moab [32m200 [0m120.578 ms - -[0m
+In Cities
+{ q: 'Moa' }
+[0mGET /cities?q=Moa [32m200 [0m120.021 ms - -[0m
+In Cities
+{ q: 'Mo' }
+[0mGET /cities?q=Mo [32m200 [0m119.378 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m120.467 ms - -[0m
+In Cities
+{ q: '.' }
+[0mGET /cities?q=. [32m200 [0m124.017 ms - -[0m
+[0mGET /? [32m200 [0m0.473 ms - 2151[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.386 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.220 ms - -[0m
+In Cities
+{ q: '' }
+[0mGET /cities?q= [32m200 [0m127.294 ms - 0[0m
+In Cities
+{ q: '.' }
+[0mGET /cities?q=. [32m200 [0m121.408 ms - -[0m
+[0mGET /? [32m200 [0m0.488 ms - 2163[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.327 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.410 ms - -[0m
+In Cities
+{ q: '' }
+[0mGET /cities?q= [32m200 [0m120.882 ms - 0[0m
+In Cities
+{ q: '.' }
+[0mGET /cities?q=. [32m200 [0m121.392 ms - -[0m
+In Owl
+{ q: 'Spring' }
+[0mGET /owl?q=Spring [32m200 [0m273.978 ms - 1416[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m120.949 ms - -[0m
+In Cities
+{ q: 'Mo' }
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=Mo [32m200 [0m126.297 ms - -[0m
+[0mGET /cities?q=M [32m200 [0m125.774 ms - -[0m
+In Cities
+{ q: 'Mob' }
+[0mGET /cities?q=Mob [32m200 [0m130.916 ms - -[0m
+In Cities
+{ q: 'Mo' }
+[0mGET /cities?q=Mo [32m200 [0m119.338 ms - -[0m
+In Cities
+{ q: 'Moab' }
+[0mGET /cities?q=Moab [32m200 [0m119.492 ms - -[0m
+In Cities
+{ q: 'Moab' }
+[0mGET /cities?q=Moab [32m200 [0m121.042 ms - -[0m
+[0mGET /? [36m304 [0m0.304 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.279 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.403 ms - 430[0m
+In Cities
+{ q: 'M' }
+In Cities
+{ q: 'Mo' }
+[0mGET /cities?q=M [32m200 [0m176.260 ms - -[0m
+[0mGET /cities?q=Mo [32m200 [0m123.166 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m123.807 ms - -[0m
+In Cities
+{ q: 'Moa' }
+[0mGET /cities?q=Moa [32m200 [0m148.885 ms - -[0m
+In Cities
+{ q: 'Mo' }
+[0mGET /cities?q=Mo [32m200 [0m120.327 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m125.415 ms - -[0m
+[0mGET /? [32m200 [0m0.461 ms - 2159[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.332 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.223 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m122.155 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m127.509 ms - -[0m
+In Owl
+{ q: 'spring' }
+[0mGET /owl?q=spring [32m200 [0m213.209 ms - 1416[0m
+[0mGET /? [36m304 [0m0.373 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.476 ms - 488[0m
+[0mGET /javascripts/script.js [36m304 [0m0.380 ms - -[0m
+[0mGET /? [36m304 [0m0.306 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.530 ms - 488[0m
+[0mGET /javascripts/script.js [36m304 [0m0.218 ms - -[0m
+[0mGET /? [36m304 [0m0.290 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.401 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.238 ms - 488[0m
+[0mGET /? [36m304 [0m0.313 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.809 ms - 502[0m
+[0mGET /javascripts/script.js [36m304 [0m0.754 ms - -[0m
+[0mGET /? [36m304 [0m0.293 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.807 ms - 516[0m
+[0mGET /javascripts/script.js [36m304 [0m0.787 ms - -[0m
+[0mGET /? [36m304 [0m0.284 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.277 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.239 ms - 527[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.332 ms - -[0m
+[0mGET /? [32m200 [0m0.479 ms - 2156[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.366 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.241 ms - -[0m
+[0mGET /? [36m304 [0m0.279 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.378 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.903 ms - -[0m
+In Cities
+{ q: 'M' }
+In Cities
+{ q: 'Mo' }
+[0mGET /cities?q=Mo [32m200 [0m1535.331 ms - -[0m
+[0mGET /cities?q=M [32m200 [0m1797.041 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m120.251 ms - -[0m
+In Owl
+{ q: 'spring' }
+[0mGET /owl?q=spring [32m200 [0m244.918 ms - 1416[0m
+[0mGET /? [36m304 [0m0.280 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.594 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.708 ms - -[0m
+In Cities
+{ q: 'm' }
+[0mGET /cities?q=m [32m200 [0m178.565 ms - -[0m
+In Cities
+{ q: '.' }
+[0mGET /cities?q=. [32m200 [0m121.360 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m123.137 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m119.810 ms - -[0m
+In Owl
+{ q: 'spring' }
+[0mGET /owl?q=spring [32m200 [0m255.369 ms - 1416[0m
+[0mGET / [32m200 [0m0.464 ms - 2156[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.314 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.205 ms - -[0m
+In Cities
+{ q: 'C' }
+In Cities
+{ q: 'Ca' }
+[0mGET /cities?q=C [32m200 [0m120.993 ms - -[0m
+In Cities
+{ q: 'Cal' }
+[0mGET /cities?q=Ca [32m200 [0m126.665 ms - -[0m
+[0mGET /cities?q=Cal [32m200 [0m125.996 ms - -[0m
+In Cities
+{ q: 'Cal' }
+[0mGET /cities?q=Cal [32m200 [0m121.137 ms - -[0m
+In Cities
+{ q: 'Ca' }
+[0mGET /cities?q=Ca [32m200 [0m121.027 ms - -[0m
+In Cities
+{ q: 'Cac' }
+[0mGET /cities?q=Cac [32m200 [0m123.741 ms - -[0m
+In Cities
+{ q: 'Cach' }
+[0mGET /cities?q=Cach [32m200 [0m122.056 ms - -[0m
+In Cities
+{ q: 'Cache' }
+[0mGET /cities?q=Cache [32m200 [0m129.149 ms - -[0m
+In Owl
+{ q: 'cache' }
+[0mGET /owl?q=cache [32m200 [0m251.372 ms - 268[0m
+[0mGET /? [36m304 [0m0.282 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.355 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.206 ms - -[0m
+[0mGET /? [36m304 [0m0.320 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.251 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.249 ms - -[0m
+[0mGET /? [36m304 [0m0.316 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.549 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.704 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m180.649 ms - -[0m
+In Cities
+{ q: 'Mo' }
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=Mo [32m200 [0m122.371 ms - -[0m
+[0mGET /cities?q=M [32m200 [0m121.741 ms - -[0m
+[0mGET /? [36m304 [0m0.301 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.294 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m4.141 ms - -[0m
+In Cities
+{ q: 'M' }
+[0mGET /cities?q=M [32m200 [0m119.246 ms - -[0m
+In Cities
+{ q: 'M' }
+In Cities
+{ q: 'Mo' }
+[0mGET /cities?q=M [32m200 [0m119.635 ms - -[0m
+[0mGET /cities?q=Mo [32m200 [0m118.792 ms - -[0m
+In Cities
+{ q: 'Moab' }
+[0mGET /cities?q=Moab [32m200 [0m119.811 ms - -[0m
+In Cities
+{ q: 'Moab' }
+[0mGET /cities?q=Moab [32m200 [0m127.756 ms - -[0m
+In Owl
+{ q: 'spring' }
+[0mGET /owl?q=spring [32m200 [0m252.926 ms - 1416[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.896 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.937 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m1.581 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.941 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m1.660 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.936 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.867 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.875 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.905 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.921 ms - 1196[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.849 ms - 1196[0m
+[0mGET / [32m200 [0m3.122 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m0.829 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.862 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.818 ms - 1196[0m
+[0mGET / [32m200 [0m0.406 ms - 2156[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.449 ms - 527[0m
+[0mGET /javascripts/script.js [32m200 [0m0.426 ms - 1529[0m
+[0mGET /favicon.ico [33m404 [0m0.908 ms - 1196[0m
+In Cities
+{ q: 'P' }
+[0mGET /cities?q=P [32m200 [0m184.204 ms - -[0m
+In Cities
+{ q: 'P' }
+[0mGET /cities?q=P [32m200 [0m120.551 ms - -[0m
+In Owl
+{ q: 'Monkey' }
+[0mGET /owl?q=Monkey [32m200 [0m289.098 ms - 457[0m
+[0mGET /lab-4-node-calengbuford [33m404 [0m0.852 ms - 1196[0m
+[0mGET / [36m304 [0m0.299 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.322 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.202 ms - -[0m
+[0mGET / [36m304 [0m0.283 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.339 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.212 ms - -[0m
+[0mGET / [32m200 [0m0.416 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m0.843 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.819 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.861 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.836 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.835 ms - 1196[0m
+[0mGET / [32m200 [0m0.424 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m1.343 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.843 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.873 ms - 1196[0m
+[0mGET / [32m200 [0m0.419 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m0.890 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.857 ms - 1196[0m
+[0mGET / [32m200 [0m0.421 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m0.832 ms - 1196[0m
+[0mGET / [32m200 [0m0.430 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m0.912 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.833 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.826 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.843 ms - 1196[0m
+[0mGET / [32m200 [0m0.411 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m0.832 ms - 1196[0m
+[0mGET / [32m200 [0m0.437 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m1.454 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.845 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.807 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.822 ms - 1196[0m
+[0mGET / [32m200 [0m0.403 ms - 2156[0m
+[0mGET /favicon.ico [33m404 [0m0.818 ms - 1196[0m
+[0mGET /favicon.ico [33m404 [0m0.804 ms - 1196[0m
+[0mGET / [32m200 [0m0.410 ms - 2156[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.481 ms - 527[0m
+[0mGET /javascripts/script.js [32m200 [0m0.299 ms - 1529[0m
+[0mGET /favicon.ico [33m404 [0m0.873 ms - 1196[0m
+In Cities
+{ q: 'N' }
+[0mGET /cities?q=N [32m200 [0m195.386 ms - -[0m
+In Cities
+{ q: 'Nod' }
+In Cities
+{ q: 'N' }
+[0mGET /cities?q=Nod [32m200 [0m124.795 ms - -[0m
+[0mGET /cities?q=N [32m200 [0m118.105 ms - -[0m
+In Cities
+{ q: 'Node' }
+In Cities
+{ q: 'Nod' }
+[0mGET /? [32m200 [0m0.421 ms - 2156[0m
+[0mGET /cities?q=Nod [32m200 [0m127.859 ms - -[0m
+[0mGET /cities?q=Node [32m200 [0m146.667 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.280 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.327 ms - -[0m
+In Cities
+{ q: 'N' }
+In Cities
+{ q: 'No' }
+[0mGET /cities?q=N [32m200 [0m118.216 ms - -[0m
+[0mGET /cities?q=No [32m200 [0m117.592 ms - -[0m
+In Cities
+{ q: 'No' }
+In Cities
+{ q: 'Nod' }
+[0mGET /cities?q=No [32m200 [0m116.817 ms - -[0m
+[0mGET /cities?q=Nod [32m200 [0m117.371 ms - -[0m
+In Cities
+{ q: 'Node' }
+[0mGET /cities?q=Node [32m200 [0m122.594 ms - -[0m
+In Cities
+{ q: 'Nod' }
+[0mGET /cities?q=Nod [32m200 [0m116.737 ms - -[0m
+In Cities
+{ q: 'No' }
+[0mGET /cities?q=No [32m200 [0m116.627 ms - -[0m
+In Cities
+{ q: 'N' }
+[0mGET /cities?q=N [32m200 [0m126.350 ms - -[0m
+In Owl
+{ q: 'word' }
+[0mGET /owl?q=word [32m200 [0m309.891 ms - 1300[0m
+[0mGET /? [36m304 [0m0.285 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.355 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.220 ms - -[0m
+[0mGET /? [36m304 [0m0.332 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.505 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.497 ms - -[0m
+[0mGET /? [36m304 [0m0.253 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.292 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.178 ms - -[0m
+[0mGET /? [36m304 [0m0.330 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.494 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.490 ms - -[0m
+[0mGET /? [36m304 [0m0.316 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.890 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.196 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.308 ms - -[0m
+[0mGET /? [32m200 [0m0.400 ms - 2156[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.454 ms - 527[0m
+[0mGET /javascripts/script.js [32m200 [0m0.449 ms - 1529[0m
+[0mGET /favicon.ico [33m404 [0m0.953 ms - 1196[0m
+[0mGET /? [36m304 [0m0.265 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.340 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.194 ms - -[0m
+[0mGET /? [36m304 [0m0.322 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.278 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.188 ms - -[0m
+[0mGET /? [36m304 [0m0.373 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.294 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.194 ms - -[0m
+[0mGET /? [36m304 [0m0.284 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.299 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.209 ms - -[0m
+[0mGET /? [36m304 [0m1.738 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.486 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.506 ms - -[0m
+[0mGET /? [36m304 [0m0.270 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.283 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.219 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.855 ms - 1196[0m

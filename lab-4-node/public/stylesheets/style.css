@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  width:100%;
+  background-color: #ffffd1;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  width:100% !important;  
+  border-radius: 0px !important;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  flex-shrink: none;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.items-list {
+  padding: 15px;
+}
+
+.item-div {
+  padding-top: 4px;
+}
+
+.item-div:hover {
+  color: #05964b;
+}
+
+.defenition {
+  padding-top: 4px;
+}
+
+.grey {
+  color: grey;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Lab4 | Vue REST</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Lab4 | Vue REST</a>
+  </nav>
+    
+  <div id="page-content">
+    <div id="app">
+      <div class="row">
+        <div class="col-md-1"></div>
+  
+        <div class="col-md-5">
+          <h1>Search a City</h1>
+          <form v-on:keyup.prevent="cityREST">
+            <input type="text" v-model="prefix">
+          </form>
+          <div class="items-list">
+            <div v-for="item in cities" class="item-div">
+              {{ item.name }}
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-5">
+          <h1>Search a Definition</h1>
+          <form v-on:submit.prevent="owlREST">
+            <input type="text" v-model="word">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+          <div class="items-list">
+            <div v-for="item in defenitions" class="item-div">
+              <div class="defenition">
+                <i class="grey">{{ item.type }}</i><br> {{ item.defenition }}
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <br><br><br><br><br>
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; 2019 Vue REST | <a href="https://github.com/BYUCS260/lab-4-node-calengbuford" 
+      target="_blank">github.com/BYUCS260/lab-4-node-calengbuford</a></small>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+  <script src="javascripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.white-title {
+  color: white;
+  padding-left: 25px;
+  
+}
+
+.post-header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 30px;
+  padding: 5px;
+  width: 640.5px;
+  background-color: #adf8ff;
+}
+
+.img-post {
+  width: 640.5px;
+  height: auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.post-name {
+  font-size: 20px;
+}
+
+.post-date {
+  color: grey;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  margin-top: 9px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #adf8ff;
+  color: white;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.a {
+  color: white;
+}
+
+.menu {
+    font-size: 22px;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column2 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.i {
+  font-style: italic;
+  text-align: center;
+}
+
+#align {
+  text-align: center;
+}
+
+#leftpad {
+  padding-left: 17px;
+}
+
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column3 {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 28px;
+}
+
+.column3 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#bg-lightgrey {
+  background-color: lightgrey;
+}
+#bg-skyblue {
+  background-color: lightblue;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Form */
+input, textarea, select, button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+.add, .edit {
+  display: flex;
+}
+
+.like:hover {
+  color: red;
+}

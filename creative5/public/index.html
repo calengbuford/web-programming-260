@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css" />
+  <title>Switt Pics</title>
+</head>
+
+<body>
+  <div id="admin">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img src="images/SwittPicsLogo.png">
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+      <!--  <span class="navbar-toggler-icon"></span>-->
+      <!--</button>-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <h1 class="white-title">Social Pics</h1>
+      <!--<ul class="navbar-nav">-->
+      <!--  <li class="nav-item active">-->
+      <!--    <a class="nav-link" href="#">-->
+      <!--      <div class="menu">Home</div> <span class="sr-only">(current)</span></a>-->
+      <!--  </li>-->
+      <!--</ul>-->
+      </div>
+    </nav>
+    <div class="header">
+      <br>
+    
+    </div>
+
+    <br><br>
+    <h3 class="center">Post a photo</h3>
+
+    <div class ="center">
+      <div class="add">
+        <div class="form">
+          <span>
+            <input v-model="name" placeholder="Name">
+          </span>
+          <span>
+            <label class="custom-file-upload btn btn-md btn-primary">
+              Upload a pic
+              <input type="file" name="photo" @change="fileChanged">
+            </label>
+            <button class="btn btn-md btn-primary" @click="upload">Post</button>
+          </span>
+          <span v-if="fileSelected"><i>&nbsp;&nbsp;File selected</i></span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="center" v-for="item in posts">
+      <div class="post-header" style="overflow: hidden;">
+        <div style="float: left;"><span class="post-name">&nbsp;{{item.name}}&nbsp;&nbsp;|&nbsp;&nbsp;</span><span class="post-date">Posted {{ item.date.toLocaleString() }}</span></div>
+        <div style="float: right;"><span style="text-align:right;"><i class="fa fa-trash-o" @click="deleteItem(item)"></i></span></div>
+      </div>
+      <img :src="item.path" class="img-post"/>
+      <div>
+      <div class="float:left;"><p><i class="fa fa-heart like" @click="likeItem(item)"></i> {{item.likes}} likes</p></div>
+      </div>
+    </div>
+
+  </div>
+
+  <br><br><br>
+
+  <div class="footer">
+    <div color="white">Created by Jake, Sequoia, Calen &nbsp;|&nbsp;
+      <i class="fa fa-github" style="color:#d3d93b; height: 20px;"></i>
+      <a href="https://github.com/Witt-Jacob/creative5" style="color:yellow" target="blank">Github</a>
+    </div>
+    <!--<a class="a" href="https://github.com/BYUCS260/lab1-html-css-Witt-Jacob">GitHub</a> classroom-->
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.js" integrity="sha256-g+Q8DFAmG5+eyRPSydX0LY4TfjsL11XSDrIGerbbEdA=" crossorigin="anonymous"></script>
+  <script src="javascripts/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

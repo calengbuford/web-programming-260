@@ -1,0 +1,20 @@
+{
+  "name": "lab-5-mongodb-calengbuford",
+  "version": "1.0.0",
+  "description": "In this assignment, you will build an entire web application, using Vue for the front end and Node, Express, and Mongo on the back end.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm install express mongoose multer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.7.10",
+    "multer": "^1.4.2"
+  }
+}

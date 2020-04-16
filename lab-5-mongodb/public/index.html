@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Museum of Ordinary Objects</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="images/ordinary.png">
+    </div>
+    <div class="title">
+      <h2>CS 260</h2>
+      <h1>Museum of Ordinary Objects</h1>
+    </div>
+  </div>
+  <div id="app" class="content">
+    <section class="image-gallery">
+      <div class="image" v-for="item in items">
+        <h2>{{item.title}}</h2>
+        <img :src="item.path" />
+        <p>{{item.descrip}}</p>
+      </div>
+  </div>
+  <div class="footer">
+    <a href="admin.html">Admin</a>
+  </div>
+  
+    <br><br><br><br><br>
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; 2019 Museum of Ordinary Objects | <a href="https://github.com/BYUCS260/lab-5-mongodb-calengbuford" 
+      target="_blank">github.com/BYUCS260/lab-5-mongodb-calengbuford</a></small>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.js" integrity="sha256-g+Q8DFAmG5+eyRPSydX0LY4TfjsL11XSDrIGerbbEdA=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
